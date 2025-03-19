@@ -44,7 +44,7 @@ class TrainDataset(Dataset):
 
 #TestDataset
 class TestDataset(Dataset):
-    def __init__(self, dimension=16000*10, stride=16000*10, data_path="D:/DEEPANC/1open_source/WaveNet_VNNs/test_dataset"):
+    def __init__(self, dimension=16000*10, stride=16000*10, data_path="/data/ssd0/lu.bai/WaveNet_VNNs/test_dataset"):
         super(TestDataset, self).__init__()
         self.dimension = dimension
         self.stride = stride
