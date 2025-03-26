@@ -16,7 +16,7 @@ Pri, Sec = (torch.tensor(loadmat(f, mat_dtype=True)[k]).squeeze() for f, k in [(
 config = json.load(open('config.json', 'r'))
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = WaveNet_VNNs(config).eval().to(device) 
-model.load_state_dict(torch.load("trained_model/wavenetVNNs_linear.pth"))
+model.load_state_dict(torch.load("trained_model/WaveNetVNNs_linear.pth"))
 
 ## load data
 testdata = TestDataset()
