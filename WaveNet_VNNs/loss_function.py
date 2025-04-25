@@ -2,7 +2,7 @@ import torch
 import math
 import torch.nn as nn
 
-def pwelch(x, fs=3152, nperseg=512, noverlap=341, nfft=512, window='hamming'):
+def pwelch(x, fs=3125, nperseg=512, noverlap=341, nfft=512, window='hamming'):
     step = nperseg - noverlap
     device = x.device
     # Create the window
