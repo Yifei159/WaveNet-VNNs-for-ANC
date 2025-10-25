@@ -1,7 +1,3 @@
 # WaveNet-VNNs-for-ANC
-The official implementation of WaveNet-VNNs for Active Noise Control (ANC), a fully causal solution.
-
-This repository includes the implementation of WaveNet-VNNs and several traditional ANC algorithms for comparison. (Due to copyright restrictions, ODW-FDFeLMS is not included.)
-
-## Acknowledgement
-This code extensively references the excellent [SEtrain](https://github.com/Xiaobin-Rong/SEtrain) codebase. Special thanks to [Siyuan Lian](https://github.com/lian-xiao-hua) for contributions to the implementation of traditional ANC algorithms.
+The unofficial implementation of WaveNet-VNNs for Active Noise Control (ANC).
+The orignial thesis can be found in https://arxiv.org/abs/2504.04450.
